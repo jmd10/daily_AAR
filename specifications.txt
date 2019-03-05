@@ -1,0 +1,31 @@
+
+AAR Specification
+AAR (‘After Action Report’) is designed to be an app that:
+1.	 will allow for the journaling of actions, reflection on the outcomes, and identification
+  of ways to reinforce what went well, improve what could have been done better, and ways to avoid,
+  or minimize the risk, of that which went poorly.
+
+2.	Provide space for the planning of what was identified in part 1 so it is not merely a
+  journaling exercise but instead provides an environment to design, plan, and schedule
+  the implementation of the improvements and solutions identified in part 1.
+
+-	(entered after initial creation…)
+I want this to be part of the same section. The separation of the past action and the
+future changes or reinforcements or what needs to be done seems to create a loss of
+immediacy or a decrease in association. I think that there should be a reflection on
+three things with the identification of one of those to reinforce (good), improve
+(could have been better), or prevent (failure). So, Ideally, the question is, for
+example, “what are three things you did well today?”. Each of these is identified and
+made into a separate entry (though in the beginning it’ll likely have to be a daily log),
+then, on the same page but lower is another content/text box asking “what is one
+thing you can put in place or do to reinforce what you did well (or some other wording)?”…
+and finally another box saying, “what is one thing you will do or put in place to increase
+the likelihood of the above happening?”
+
+	1.  Reflection
+	2.  Identification of area for gains/improvement
+	3.  Development of action to manifest the gain/improvement
+
+This is not intended for business or government (where AARs are frequently used after projects
+or operations) but instead is intended for daily use by people to review their day, find ways
+to continually improve, and to implement those improvements.

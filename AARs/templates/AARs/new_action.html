@@ -1,0 +1,14 @@
+{% extends "AARs/base.html" %}
+
+{% block content %}
+
+  <p><a href="{% url 'AARs:topic' topic.id %}">{{ topic }}</a></p>
+
+  <p>Add a new action to reveiw: </p>
+
+  <form action="{% url 'AARs:new_action' topic.id %}" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button name="submit">Add Action to Review</button>
+  </form>
+{% endblock content %}

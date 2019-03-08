@@ -5,6 +5,7 @@ from django.urls import path
 from . import views
 
 app_name = 'AARs'
+
 urlpatterns = [
     # Home Page
     path('', views.index, name ='index'),
@@ -24,4 +25,5 @@ urlpatterns = [
     # Page for editing an entry
     path('edit_action/<int:action_id>/', views.edit_action,
         name='edit_action'),
+
 ]

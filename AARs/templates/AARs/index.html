@@ -1,11 +1,23 @@
 {% extends "AARs/base.html" %}
 
-{% block content %}
-  <p>
-  The After Action Reports help you review your actions and outcomes and to
-  investigate them for ways to improve; to ensure the good things are continued and
-  the bad things are minimized and eliminated.
+{% block header %}
+  <div class="jumbotron">
+    <h1>Reflect. Design. Implement. Improve. Repeat</h1>
+  </div>
+{% endblock header %}
 
-  It is a way to build, one small system at a time, an ever improving system for your life.
-  </p>
+{% block content %}
+  <h2>
+    <a href="{% url 'users:register'}">Register an account</a> to make your own AAR
+    and list the daily actions, habits, and routines you want to improve.
+  </h2>
+  <h2>
+    The After Action Reports help you review your actions and outcomes and to
+    investigate them for ways to improve; to ensure the good things are continued and
+    the bad things are minimized and eliminated.
+  </h2>
+  <h2>
+    It is a way to build, one small system at a time, an ever improving system for your life.
+  </h2>
+
 {% endblock content %}

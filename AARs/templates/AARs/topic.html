@@ -1,25 +1,30 @@
 {% extends "AARs/base.html" %}
 
-{% block content %}
-  <p>Topic: {{topic}}</p>
+{% block header %}
+  <h2>{{ topic }}</h2>
+{% endblock header %}
 
-  <p>Actions:</p>
+{% block content %}
   <p>
     <a href="{% url 'AARs:new_action' topic.id %}">Add new action</a>
   </p>
-  <ul>
+
   {% for action in actions %}
-      <li>
-        <p>{{ action.date_added|date:'M d, Y H:i'}}</p>
-        <p>{{ action.text|linebreaks }}</p>
-        <p>
-          <a href="{% url 'AARs:edit_action' action.id %}">Edit action</a>
-        </p>
-      </li>
-    {% empty %}
-      <li>
-        No actions have been added yet.
-      </li>
-    {% endfor %}
-  </ul>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <small>
+          {{ action.date_added|date:'M d, Y H:i' }}
+        </small>
+        <small>  <a href="{% url 'AARs:edit_action' action.id %}">   Edit Action</a></small>
+      </div>
+      <div class="panel-body">
+        <small>
+          {{ action.text|linebreaks }}
+        </small>
+      </div>
+    </div>
+  {% empty %}
+    No actions have been added yet.
+  {% endfor %}
+
 {% endblock content %}

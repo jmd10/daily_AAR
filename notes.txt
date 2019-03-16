@@ -4,3 +4,21 @@ Things to improve prior to release...
 Before release to the impact theory group. Can I:
 
 A) make the journal topic permanent for all users.
+
+  - I think to do this, I need to create a permanent page, that mimics the
+      type of page that would be created for any user created page.
+  - There is a link for it on the "topics" page to be in alignment with users
+      created pages.
+  - when it opens, it opens to its own page like, 'topics/journal' instead of
+      'topics/topic_id'.
+
+  .... How do I do this???
+
+        - I need to go through the same process as with any other page. URL, views,
+            html page...
+
+        - BEFORE I DO THIS... I need to make sure all have a way of retreating... that is
+            either by tracking the changes, so I can delete what I've done, or
+            by using github or heroku (I think git hub, then push when working to
+            Heroku). This is preferred, as this is something I need to know how
+            to do. 

@@ -15,11 +15,11 @@
         <small>
           {{ action.date_added|date:'M d, Y H:i' }}
         </small>
-        <small>  <a href="{% url 'AARs:edit_action' action.id %}">   Edit Action</a></small>
+        <small>  <a href="{% url 'AARs:edit_action' action.id %}">Read or Edit Action</a></small>
       </div>
       <div class="panel-body">
         <small>
-          {{ action.text|linebreaks }}
+          {{ action.text|truncatewords_html:20 }}
         </small>
       </div>
     </div>

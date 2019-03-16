@@ -1,0 +1,12 @@
+
+Things to improve prior to release...
+
+Before release to the impact theory group. Can I:
+
+A) make the journal topic permanent for all users.
+
+B) make what is shown shorter (say 200 character s) and change edit to "read / edit "
+    - In 'topic' in the view.py file, added (max_length=50) to 'action'
+        - fail
+    - I think it needs to be done in topic.html. I think there needs to an html
+      command to tell it to only display 50 or 100 or 200 characters...

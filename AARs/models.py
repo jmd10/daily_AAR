@@ -23,4 +23,4 @@ class Actions(models.Model):
 
     def __str__(self):
         ''' returns string representation of model '''
-        return self.text[:50] + "..."
+        return self.text[0:50] + "..."
